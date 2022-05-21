@@ -1,0 +1,12 @@
+basicamente se denomica callback a una funcion que es ejecutada dentro de otro funcion 
+
+digamos que tengo una funcion1(cb){
+    funcion2()
+}
+
+funcion saludar(){\
+console.log(saludar)
+}
+
+funcion1(saludar)
+aqui basicamente llamamos a na funcion dentro de otra funcion
